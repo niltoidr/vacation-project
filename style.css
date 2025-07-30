@@ -1,0 +1,70 @@
+/* Genel gövde ayarları */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Başlık */
+h1 {
+  text-align: center;
+  color: #00796b;
+  margin-top: 30px;
+}
+
+h2 {
+  color: #004d40;
+  margin-top: 40px;
+}
+
+/* Görseller */
+img {
+    float:left;
+  width: 50%;
+  max-height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  margin: 100px 30px 20px 10px;
+}
+
+/* Paragraflar */
+p {
+  font-size: 18px;
+  max-width: 2000px;
+  margin: 0 auto 20px auto;
+}
+
+/* Liste */
+ul {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 20px;
+  font-size: 17px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Buton */
+button {
+  background-color: #00796b;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin: 30px auto;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d40;
+  transform: scale(1.05);
+}
